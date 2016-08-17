@@ -11,7 +11,7 @@ dependencies:
     - npm i -g bower
     - bower install
     - docker info
-    - docker build -t todoapp .
+    - docker build -t liranlevy3/todoapp .
 
 database:
   override:
@@ -19,7 +19,7 @@ database:
     
 test:
   override:
-    - docker run -it -p 8080:8080 --name todoapp --link mongo -d todoapp; sleep 10
+    - docker run -it -p 8080:8080 --name todoapp --link mongo -d liranlevy3/todoapp; sleep 10
     - curl --retry 10 --retry-delay 5 -v http://localhost:8080
     
 
