@@ -1,3 +1,10 @@
 # todoapp
 
-A demo application for light CI\CD using GitHub, CircleCI, Docker, DockerHub and AWS.
+A demo application desinged to demonstrate web applicaton and web CI\CD development, using the followinv applications - 
+
+1. MEAN Stack
+2. GitHub
+2. CircleCI
+3. Docker
+4. DockerHub
+5. AWS
