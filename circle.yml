@@ -21,5 +21,12 @@ test:
   override:
     - docker run -it -p 8080:8080 --name todoapp --link mongo -d liranlevy3/todoapp; sleep 10
     - curl --retry 10 --retry-delay 5 -v http://localhost:8080
+
+deployment:
+  hub:
+    branch: master
+    commands:
+      - docker login -e liran.levy3@gmail.com -u liranlevy3 -p Ll2346025
+      - docker push liranlevy3/todoapp
     
 
