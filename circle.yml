@@ -10,7 +10,3 @@ dependencies:
     - npm install
     - npm i -g bower
     - bower install
-
-test:
-  override:
-    - echo "test"
