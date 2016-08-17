@@ -1,17 +1,17 @@
 {
   "name": "todoapp",
   "version": "1.0.0",
-  "description": "todoapp demo",
+  "description": "A demo application desinged to demonstrate web applicaton and web CI-CD development",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"No test specified\" && exit 0",
+    "test": "echo \"No test specified yet\" && exit 0",
     "start": "node server/app.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/liranlevy3/todoapp.git"
   },
-  "author": "",
+  "author": "liran levy",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/liranlevy3/todoapp/issues"
