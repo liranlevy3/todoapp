@@ -4,7 +4,7 @@
   var express = require('express');
   var router = express.Router();
   var mongojs = require('mongojs');
-  var db = mongojs('mongo://' + process.env.MONGO_PORT_27017_TCP_ADDR + ':' + process.env.MONGO_PORT_27017_TCP_PORT + '/meanTodo', ['todos']);
+  var db = mongojs(process.env.MONGO_PORT_27017_TCP_ADDR + ':' + process.env.MONGO_PORT_27017_TCP_PORT + '/meanTodo', ['todos']);
  
   /* GET home page. */
   router.get('/', function(req, res) {
