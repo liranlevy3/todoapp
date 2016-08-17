@@ -1,6 +1,6 @@
 # todoapp
 
-A demo application desinged to demonstrate web applicaton and web CI\CD development, using the followinv applications - 
+A demo application desinged to demonstrate web applicaton and web CI\CD development, using the following applications - 
 
 1. MEAN Stack
 2. GitHub
