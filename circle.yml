@@ -5,9 +5,5 @@ machine:
 dependencies:
   override:
     - npm install
+    - npm i -g bower
     - bower install
-
-test:
-  override:
-  
-deployment:
