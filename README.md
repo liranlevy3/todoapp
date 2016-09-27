@@ -8,3 +8,5 @@ A demo application desinged to demonstrate web applicaton and web CI\CD developm
 3. Docker
 4. DockerHub
 5. AWS
+
+test
